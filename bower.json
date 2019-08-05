@@ -1,8 +1,0 @@
-{
-  "name": "__MSG_appName__",
-  "version": "1.1.0",
-  "dependencies": {
-    "ionic": "~0.9.27"
-  },
-  "devDependencies": {}
-}

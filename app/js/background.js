@@ -210,7 +210,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
     'active': false
   });
   chrome.storage.local.set({
-    'urls': ['*//*.fakeexample.com']
+    'urls': ['https://*.fakeexample.com/*']
   });
   chrome.storage.local.set({
     'exposedHeaders': ''
