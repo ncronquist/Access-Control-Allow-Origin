@@ -28,14 +28,14 @@
         <div class="item item-divider">
           {{i18n.allowHeaders}}
         </div>
-        <text-option option="exposedHeaders" placeholder="comma-separated list of headers ..."></text-option>
+        <text-option option="exposedHeaders" placeholder="{{i18n.headersListPlaceholder}}"></text-option>
         <div class="item item-divider">
-          {{i18n.urlPatterns}}
+          {{i18n.urlHeader}}
           <a class="icon ion-link" ng-click="openInNewTab('https://developer.chrome.com/extensions/match_patterns');"></a>
         </div>
         <div class="item item-input-inset">
           <label class="item-input-wrapper">
-            <input type="text" placeholder="URL or URL pattern" ng-model="url" submit-on-enter="addUrl()">
+            <input type="text" placeholder="{{i18n.urlPatterns}}" ng-model="url" submit-on-enter="addUrl()">
           </label>
           <a class="button button-icon button-small icon ion-plus-circled submit-action" ng-click="addUrl();"></a>
         </div>

@@ -10,10 +10,12 @@ app.controller('PopupCtrl', ['$scope', function ($scope) {
   $scope.url = '';
   $scope.exposedHeaders = '';
   $scope.i18n = {
-    settings: chrome.i18n.getMessage('settings'),
     allowHeaders: chrome.i18n.getMessage('allowHeaders'),
-    urlPatterns: chrome.i18n.getMessage('urlPatterns'),
-    sharingHeader: chrome.i18n.getMessage('sharingHeader')
+    headersListPlaceholder: chrome.i18n.getMessage('headersListPlaceholder'),
+    settings: chrome.i18n.getMessage('settings'),
+    sharingHeader: chrome.i18n.getMessage('sharingHeader'),
+    urlHeader: chrome.i18n.getMessage('urlHeader'),
+    urlPatterns: chrome.i18n.getMessage('urlPatterns')
   };
 
   chrome.storage.local.get({
@@ -81,6 +83,11 @@ app.directive('textOption', function() {
     controller: function($scope) {
       $scope.editing = false;
 
+      $scope.i18n = {
+        cancel: chrome.i18n.getMessage('cancel'),
+        save: chrome.i18n.getMessage('save')
+      };
+      
       $scope.onEdit = function() {
         $scope.editableOption = $scope.option;
         $scope.editing = true;

@@ -1,20 +1,32 @@
 {
-  "appName": {
-    "message": "Allow-Control-Allow-Origin: *"
+  "allowHeaders": {
+    "message": "Access-Control-Expose-Headers"
   },
   "appDescription": {
-    "message": "Allows to you request any site with ajax from any source. Adds to response 'Allow-Control-Allow-Origin: *' header"
+    "message": "Greenlights (get it? :nudge-nudge:) CORS requests to any API by setting 'Allow-Control-Allow-Origin: *' header"
+  },
+  "appName": {
+    "message": "CORS-Greenlight"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "headersListPlaceholder": {
+    "message": "comma-separated list of headers ..."
+  },
+  "save": {
+    "message": "Save"
   },
   "settings": {
     "message": "Settings"
   },
-  "allowHeaders": {
-    "message": "Access-Control-Expose-Headers"
-  },
   "sharingHeader": {
     "message": "Enable cross-origin resource sharing"
   },
-  "urlPatterns": {
+  "urlHeader": {
     "message": "Intercepted URLs or URL patterns"
+  },
+  "urlPatterns": {
+    "message": "URL or URL pattern, example: *://*/*"
   }
 }
