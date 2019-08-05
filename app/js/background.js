@@ -207,10 +207,10 @@ chrome.runtime.onInstalled.addListener(function(details) {
   console.log('previousVersion', JSON.stringify(details, null, 2));
 
   chrome.storage.local.set({
-    'active': true
+    'active': false
   });
   chrome.storage.local.set({
-    'urls': ['*://*/*']
+    'urls': ['*//*.fakeexample.com']
   });
   chrome.storage.local.set({
     'exposedHeaders': ''
