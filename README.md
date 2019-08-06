@@ -17,7 +17,7 @@ Installation
 
 From the Chrome App Store:
 
-Chrome extension: https://chrome.google.com/webstore/detail/bhachhlaofmplbfnefenmlnflolelkff
+Chrome extension: https://chrome.google.com/webstore/detail/local-cors/bhachhlaofmplbfnefenmlnflolelkff
 
 
 Thanks!
