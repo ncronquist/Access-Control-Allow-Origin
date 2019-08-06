@@ -3,10 +3,10 @@
     "message": "Access-Control-Expose-Headers"
   },
   "appDescription": {
-    "message": "Greenlights (get it? :nudge-nudge:) CORS requests to any API by setting 'Allow-Control-Allow-Origin: *' header"
+    "message": "Allows CORS requests from your localhost to any API by setting 'Access-Control-Allow-Origin: *' header"
   },
   "appName": {
-    "message": "CORS-Greenlight"
+    "message": "Local-CORS"
   },
   "cancel": {
     "message": "Cancel"

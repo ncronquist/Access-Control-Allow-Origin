@@ -1,17 +1,17 @@
 {
-  "name": "CORS-Greenlight",
+  "name": "local-cors",
   "version": "0.0.1",
-  "description": "Greenlights (get it? :nudge-nudge:) CORS requests to any API by setting 'Allow-Control-Allow-Origin: *' header",
+  "description": "Allows CORS requests from your localhost to any API by setting 'Access-Control-Allow-Origin: *' header",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ncronquist/CORS-Greenlight.git"
+    "url": "https://github.com/ncronquist/local-cors.git"
   },
   "author": "Vitaly Pereverzev",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ncronquist/CORS-Greenlight/issues"
+    "url": "https://github.com/ncronquist/local-cors/issues"
   },
-  "homepage": "https://github.com/ncronquist/CORS-Greenlight",
+  "homepage": "https://github.com/ncronquist/local-cors",
   "dependencies": {},
   "devDependencies": {}
 }
